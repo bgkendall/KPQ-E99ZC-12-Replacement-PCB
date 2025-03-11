@@ -1022,7 +1022,7 @@
 		(at 130.161 120.8 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 3.81 -2.37 180)
 			(layer "F.SilkS")
 			(uuid "68c1fa0c-df07-470a-92dd-a94c1b4b3226")
@@ -1057,7 +1057,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6702,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12922,7 +12922,6 @@
 				(xy 94.839937 120.87742) (xy 94.880013 121.026984) (xy 94.957433 121.161079) (xy 95.066921 121.270567)
 				(xy 95.201016 121.347987) (xy 95.35058 121.388063) (xy 95.50542 121.388063) (xy 95.654984 121.347987)
 				(xy 95.789079 121.270567) (xy 95.898567 121.161079) (xy 95.975987 121.026984) (xy 96.016063 120.87742)
-				(xy 96.016063 120.72258)
 			)
 		)
 		(filled_polygon
