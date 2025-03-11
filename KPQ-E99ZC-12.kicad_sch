@@ -10548,7 +10548,7 @@
 				)
 			)
 		)
-		(property "Value" "USB Cable"
+		(property "Value" "USB"
 			(at 31.75 64.77 0)
 			(effects
 				(font
@@ -10556,7 +10556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Project_Library:PinHeader_1x04_P2.54mm_Vertical"
 			(at 31.75 72.39 0)
 			(effects
 				(font
@@ -10575,6 +10575,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P1" "GND"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P2" "D+"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P3" "D-"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P4" "+5V"
 			(at 31.75 72.39 0)
 			(effects
 				(font
