@@ -4512,12 +4512,6 @@
 		(uuid "f81fd52b-2063-4c4c-a24a-8cbd6d5f5e8d")
 	)
 	(junction
-		(at 101.6 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "946dc9bd-528e-4ea9-a4ce-f24f0fd3c1d1")
-	)
-	(junction
 		(at 40.64 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4572,16 +4566,6 @@
 			(type default)
 		)
 		(uuid "0c4e0284-35a7-4d41-9833-715190b9bd42")
-	)
-	(wire
-		(pts
-			(xy 101.6 156.21) (xy 101.6 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117d712e-e710-445c-a235-36726925f76d")
 	)
 	(wire
 		(pts
@@ -4875,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 153.67) (xy 101.6 153.67)
+			(xy 99.06 153.67) (xy 104.14 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4912,16 +4896,6 @@
 			(type default)
 		)
 		(uuid "9c348d3c-3dcf-4053-aa38-3423a39c12c1")
-	)
-	(wire
-		(pts
-			(xy 101.6 163.83) (xy 101.6 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8314af-ff46-466f-b01f-f946901063c4")
 	)
 	(wire
 		(pts
@@ -5002,16 +4976,6 @@
 			(type default)
 		)
 		(uuid "ba12cb16-c164-41ec-a1b5-c0a580e56711")
-	)
-	(wire
-		(pts
-			(xy 101.6 153.67) (xy 104.14 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1cd5fd-0a4b-44b8-b3ec-27c27e3d7e16")
 	)
 	(wire
 		(pts
@@ -8179,73 +8143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 101.6 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ff89b03-e445-4bbb-87b2-8d90f4ba219a")
-		(property "Reference" "R1"
-			(at 97.536 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 97.536 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.822 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3cfded6-2dc6-4b50-ad8f-f6ebc533b369")
-		)
-		(pin "1"
-			(uuid "0a3adb47-321d-48c3-b4a5-221a73241161")
-		)
-		(instances
-			(project "KPQ-E99ZC-12"
-				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 91.44 0)
 		(unit 1)
@@ -10191,72 +10088,6 @@
 			(project "KPQ-E99ZC-12"
 				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6238db7-03dc-46cf-a6be-abbda7801430")
-		(property "Reference" "#PWR010"
-			(at 101.6 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fa9dc6f-c617-4ff9-aa49-135234187a65")
-		)
-		(instances
-			(project "KPQ-E99ZC-12"
-				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
