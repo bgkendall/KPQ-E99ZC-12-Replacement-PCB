@@ -6,14 +6,14 @@
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
 		(unlocked yes)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ce9a1b77-68e8-4af6-8539-1693674dcdee")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Value" "Edge Finger"
@@ -56,7 +56,7 @@
 			(justify mirror)
 		)
 	)
-	(attr smd)
+	(attr smd allow_soldermask_bridges)
 	(fp_rect
 		(start -32.7 -4)
 		(end 32.7 0)
@@ -80,8 +80,8 @@
 		(uuid "5fc54fa6-360a-4c9e-beec-fe644ab905ad")
 	)
 	(fp_line
-		(start -27.5 -4.54)
-		(end -2 -4.54)
+		(start -27.625 -4.54)
+		(end -2.125 -4.54)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -100,18 +100,8 @@
 		(uuid "c37d517e-f17d-47da-b490-7060ff6ee242")
 	)
 	(fp_line
-		(start -34.7 1.225)
-		(end -35.2 1.225)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "86dcafd3-8247-4800-9f99-1cfaa5e7eb00")
-	)
-	(fp_line
 		(start -32.7 -4)
-		(end -32.7 -0.775)
+		(end -32.7 -1.315)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -121,7 +111,7 @@
 	)
 	(fp_line
 		(start -32.7 -4)
-		(end -28 -4)
+		(end -28.125 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -130,8 +120,8 @@
 		(uuid "3a2e6274-de10-4bde-81d7-b86b4b3ee325")
 	)
 	(fp_line
-		(start -28 -5)
-		(end -28 -4)
+		(start -28.125 -5)
+		(end -28.125 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -140,8 +130,8 @@
 		(uuid "14c9cf90-4f4a-4f51-bd1e-f8a9ac25dfb0")
 	)
 	(fp_line
-		(start -28 -5)
-		(end -1.5 -5)
+		(start -28.125 -5)
+		(end -1.625 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -150,8 +140,8 @@
 		(uuid "a5c39538-0c83-4119-9d08-60a75afcbfa5")
 	)
 	(fp_line
-		(start -1.5 -5)
-		(end -1.5 -4)
+		(start -1.625 -5)
+		(end -1.625 -4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -160,7 +150,7 @@
 		(uuid "fdca6f1d-f47a-4c06-b2a5-7f83238b2bd6")
 	)
 	(fp_line
-		(start -1.5 -4)
+		(start -1.625 -4)
 		(end 1.5 -4)
 		(stroke
 			(width 0.05)
@@ -210,7 +200,7 @@
 		(uuid "39521a9a-2aba-403e-b4e0-03d2d499705e")
 	)
 	(fp_line
-		(start 32.7 -0.775)
+		(start 32.7 -1.315)
 		(end 32.7 -4)
 		(stroke
 			(width 0.05)
@@ -219,37 +209,27 @@
 		(layer "Edge.Cuts")
 		(uuid "5bd538c9-57a6-496a-a80f-25b66e8c5d59")
 	)
-	(fp_line
-		(start 34.7 1.225)
-		(end 35.2 1.225)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6cef6734-ae96-4f0d-805b-cc7db955a537")
-	)
 	(fp_arc
-		(start -32.7 -0.775)
-		(mid -33.285786 0.639214)
-		(end -34.7 1.225)
+		(start -32.7 -1.315)
+		(mid -33.443949 0.481051)
+		(end -35.24 1.225)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "95ecbb34-4018-407f-b390-fe490d8b10d0")
+		(uuid "351f5106-8053-4b23-bfe2-00a0c175a804")
 	)
 	(fp_arc
-		(start 34.7 1.225)
-		(mid 33.285786 0.639214)
-		(end 32.7 -0.775)
+		(start 35.24 1.225)
+		(mid 33.443949 0.481051)
+		(end 32.7 -1.315)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a305f99f-fcc7-4020-a505-12332c6815b0")
+		(uuid "f47ff12d-fd78-44de-a8d1-a3cd0c84f1ea")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.5 0)
