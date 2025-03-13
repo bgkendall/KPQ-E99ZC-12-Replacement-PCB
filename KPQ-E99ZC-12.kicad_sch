@@ -5587,7 +5587,7 @@
 	)
 	(global_label "BOOT0{slash}SWCLK"
 		(shape input)
-		(at 83.82 185.42 0)
+		(at 83.82 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5597,7 +5597,7 @@
 		)
 		(uuid "40f79ffd-9e87-48b3-b5ec-1e7ead9295e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.3153 185.42 0)
+			(at 98.3153 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 83.82 187.96 0)
+		(at 83.82 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6279,7 +6279,7 @@
 		)
 		(uuid "8c2335f9-c636-4be7-87bb-743fff0b0b3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0429 187.96 0)
+			(at 93.0429 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project_Library:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 78.74 185.42 0)
 			(effects
 				(font
@@ -10899,7 +10899,7 @@
 				(hide yes)
 			)
 		)
-		(property "P3" "CLK"
+		(property "P3" "I/O"
 			(at 78.74 185.42 0)
 			(effects
 				(font
@@ -10908,7 +10908,7 @@
 				(hide yes)
 			)
 		)
-		(property "P4" "I/O"
+		(property "P4" "CLK"
 			(at 78.74 185.42 0)
 			(effects
 				(font
