@@ -68,17 +68,6 @@
 		(layer "F.Mask")
 		(uuid "f220aaa0-c181-4409-a483-6b9a937f2ce1")
 	)
-	(fp_rect
-		(start -32.7 -5)
-		(end 32.7 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.Mask")
-		(uuid "5fc54fa6-360a-4c9e-beec-fe644ab905ad")
-	)
 	(fp_line
 		(start -27.625 -4.54)
 		(end -2.125 -4.54)
@@ -592,7 +581,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "619616e3-b947-4dba-ac45-cd5702dbf751")
 		(hatch edge 0.5)
 		(connect_pads
