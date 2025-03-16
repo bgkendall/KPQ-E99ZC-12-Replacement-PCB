@@ -1687,6 +1687,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8dc28aba-0c4a-4d6d-9a6b-adbe647b691b")
 		(at 132.7 106)
@@ -2617,6 +2618,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm-4_RGB"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9731663f-8dfa-4fd5-80ff-f573fa7b0b26")
 		(at 105.351 113)
@@ -3629,6 +3631,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm-4_RGB"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a919ab4c-cbe2-4d2b-ad8c-ffb78baf3976")
 		(at 126.351 113)
@@ -4708,6 +4711,7 @@
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm-4_RGB"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cbfed18c-b8d8-4af4-81ed-3898880052ef")
 		(at 84.351 113)
@@ -5947,6 +5951,7 @@
 		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a1601305-f4d2-4f39-a14d-7a68b0900bcb")
 		(at 89.856 132.93 90)
@@ -6483,6 +6488,7 @@
 		)
 	)
 	(footprint "Project_Library:Edge_Connector_01x24"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "c40ccbde-4d0e-48d9-bd5a-04f38509ab9f")
 		(at 100 100 180)
