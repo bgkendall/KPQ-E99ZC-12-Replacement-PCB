@@ -8950,72 +8950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d8a7efc-3024-4d3e-a3cc-7d6a40ea52f3")
-		(property "Reference" "#PWR04"
-			(at 39.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71a5f0f2-d2be-47cb-81ed-210193b30064")
-		)
-		(instances
-			(project "KPQ-E99ZC-12"
-				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 242.57 88.9 0)
 		(mirror x)
@@ -9529,6 +9463,72 @@
 			(project "KPQ-E99ZC-12"
 				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9178c3f6-b5e4-426b-a265-e9b32dd4ecc4")
+		(property "Reference" "#PWR034"
+			(at 39.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa40153c-b148-4f95-b983-cb2e85c88b26")
+		)
+		(instances
+			(project "KPQ-E99ZC-12"
+				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
