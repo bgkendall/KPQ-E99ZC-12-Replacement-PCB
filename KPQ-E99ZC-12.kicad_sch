@@ -5153,22 +5153,22 @@
 	)
 	(global_label "Col2"
 		(shape output)
-		(at 191.77 73.66 0)
+		(at 171.45 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "07915ac4-8f1b-4cb5-b9ae-cc39919bf5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9858 73.66 0)
+			(at 165.2342 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6165,22 +6165,22 @@
 	)
 	(global_label "Row8"
 		(shape input)
-		(at 171.45 81.28 180)
+		(at 191.77 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "80637a84-af13-4be3-b627-d13b005ae131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.2875 81.28 0)
+			(at 198.9325 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7111,7 +7111,7 @@
 	)
 	(global_label "Col1"
 		(shape output)
-		(at 171.45 83.82 180)
+		(at 171.45 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7121,7 +7121,7 @@
 		)
 		(uuid "fe776e14-febb-4daf-8e9f-6bf9c355303f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.336 83.82 0)
+			(at 165.336 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C071KBT6"
+		(property "Value" "STM32[C07/G0B]1KBT6"
 			(at 183.9471 66.04 0)
 			(effects
 				(font
@@ -9715,7 +9715,7 @@
 				(hide yes)
 			)
 		)
-		(property "P8" "C14"
+		(property "P8" "A0"
 			(at 251.46 34.29 90)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				(hide yes)
 			)
 		)
-		(property "P9" "C15"
+		(property "P9" "C14"
 			(at 251.46 34.29 90)
 			(effects
 				(font
@@ -9733,7 +9733,7 @@
 				(hide yes)
 			)
 		)
-		(property "P10" "A0"
+		(property "P10" "C15"
 			(at 251.46 34.29 90)
 			(effects
 				(font
