@@ -1259,7 +1259,7 @@
 			(roundrect_rratio 0.25)
 			(net 34 "LED")
 			(pintype "passive")
-			(uuid "93206509-b228-439e-9fe4-f4d15d9dfa0b")
+			(uuid "28ff1e48-0cc0-4cf1-af9b-f24d5ae3b7dc")
 		)
 		(pad "2" smd roundrect
 			(at 4.7225 0 180)
@@ -1278,7 +1278,7 @@
 			(remove_unused_layers no)
 			(net 2 "+5V")
 			(pintype "passive")
-			(uuid "9a3a9765-1b68-40fa-8de3-8fdb2eaec3fb")
+			(uuid "e3a721d8-54b6-4d17-a7ff-94e56834b649")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
