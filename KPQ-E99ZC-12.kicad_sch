@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "2ca696f5-3b9d-4437-b6f7-98ba53a6592e")
 	(paper "A4")
+	(title_block
+		(title "KPQ-E99ZC-12 Replacement PCB")
+		(date "2025-10-20")
+		(rev "1.0")
+		(company "bgkendall")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
@@ -4494,6 +4500,46 @@
 			(justify left top)
 		)
 		(uuid "f81fd52b-2063-4c4c-a24a-8cbd6d5f5e8d")
+	)
+	(text_box "Both G0B1 and C071 support TIM17_CH1 and one other timer on PB9 and can therefore control RGB LEDs using the PWM driver."
+		(exclude_from_sim no)
+		(at 139.7 109.22 0)
+		(size 22.86 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left)
+		)
+		(uuid "7c74a6f9-1e64-4e3c-8e0a-3dd2eb5d4a93")
+	)
+	(text_box "Per DS13560 (Table 12), STM32G0B1 pins PC13–15 can only source limited current (3mA). However, unlike other STM32 chips, these pins can sync current in output mode. This means there should be no limitation on use within a keyboard matrix. To be safe we still only use these as columns (columns are inputs when QMK is running in column-to-row mode).\nC071 does not have any limitations on there pins documented."
+		(exclude_from_sim no)
+		(at 134.62 76.2 0)
+		(size 27.94 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left)
+		)
+		(uuid "bc1ee95f-b221-4665-bc23-e2d089156a06")
 	)
 	(junction
 		(at 40.64 160.02)
