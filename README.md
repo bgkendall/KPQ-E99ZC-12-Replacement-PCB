@@ -1,6 +1,6 @@
 # KPQ-E99ZC-12 Replacement PCB
 
-![3D render of PCB viewed from above](Images/PCB-Top-Render.png)
+<img src="Images/PCB-Top-Render.png" alt="3D render of PCB viewed from above" width="605" height="540">
 
 ## About
 
