@@ -4489,6 +4489,12 @@
 		(uuid "f81fd52b-2063-4c4c-a24a-8cbd6d5f5e8d")
 	)
 	(junction
+		(at 257.81 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06df930a-bccb-442a-805e-0cef0422d885")
+	)
+	(junction
 		(at 215.9 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4586,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 40.64) (xy 278.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428a1079-0ea7-451a-ad87-ea232d2b0a04")
+	)
+	(wire
+		(pts
 			(xy 203.2 39.37) (xy 203.2 40.64)
 		)
 		(stroke
@@ -4646,16 +4662,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 39.37) (xy 279.4 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0b8a09-0056-47d8-bf7d-17ef4cad3418")
-	)
-	(wire
-		(pts
 			(xy 215.9 49.53) (xy 215.9 48.26)
 		)
 		(stroke
@@ -4703,6 +4709,16 @@
 			(type default)
 		)
 		(uuid "6b9f52de-1915-4438-b999-26bb109b6269")
+	)
+	(wire
+		(pts
+			(xy 257.81 40.64) (xy 260.35 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7ebb83-b41f-4823-985d-bfc4290aad8b")
 	)
 	(wire
 		(pts
@@ -4763,6 +4779,16 @@
 			(type default)
 		)
 		(uuid "815965e3-2847-4544-aadf-e478602f18d2")
+	)
+	(wire
+		(pts
+			(xy 255.27 40.64) (xy 257.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8233b99c-c5a4-4f76-bf12-155a106242a2")
 	)
 	(wire
 		(pts
@@ -4956,26 +4982,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 40.64) (xy 275.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13e8890-78bf-4db7-b28c-a1f52dc42f78")
-	)
-	(wire
-		(pts
-			(xy 257.81 40.64) (xy 255.27 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4cbf73d-d41b-4af3-90d9-93290c289806")
-	)
-	(wire
-		(pts
 			(xy 22.86 33.02) (xy 25.4 33.02)
 		)
 		(stroke
@@ -5036,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 60.96) (xy 270.51 60.96)
+			(xy 273.05 66.04) (xy 267.97 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 60.96) (xy 262.89 60.96)
+			(xy 255.27 66.04) (xy 260.35 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6209,7 +6215,7 @@
 	)
 	(global_label "NRST"
 		(shape output)
-		(at 255.27 60.96 180)
+		(at 255.27 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6219,7 +6225,7 @@
 		)
 		(uuid "7aa20c77-3f2f-47de-81be-4d4bfb6b2438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.3073 60.96 0)
+			(at 248.3073 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10269,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 270.51 40.64 0)
+		(at 273.05 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10272,7 +10278,7 @@
 		(fields_autoplaced yes)
 		(uuid "a01a05af-764c-46b2-9ec0-08f9338fe17e")
 		(property "Reference" "SW1"
-			(at 270.51 33.02 0)
+			(at 273.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10286,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 270.51 35.56 0)
+			(at 273.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +10294,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
-			(at 270.51 35.56 0)
+			(at 273.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +10303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 35.56 0)
+			(at 273.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10312,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 270.51 40.64 0)
+			(at 273.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +10321,7 @@
 			)
 		)
 		(property "LCSC" "C231329"
-			(at 270.51 40.64 0)
+			(at 273.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,6 +10339,75 @@
 			(project "KPQ-E99ZC-12"
 				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 40.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a644dc1d-9f59-4915-981a-5a7d0e5e02bc")
+		(property "Reference" "R3"
+			(at 264.16 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 264.16 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGK_Kicad:R_Combined_Axial_DIN0207_0603_1608Metric"
+			(at 264.16 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14e340ad-3b16-490d-ac16-10a9581cdb7d")
+		)
+		(pin "1"
+			(uuid "9b721e4a-3ac6-49f3-866a-16ea60affb8a")
+		)
+		(instances
+			(project "KPQ-E99ZC-12"
+				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10851,7 +10926,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 266.7 60.96 90)
+		(at 264.16 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10860,7 +10935,7 @@
 		(fields_autoplaced yes)
 		(uuid "c60a6db2-f370-4c9b-9936-07fca0645545")
 		(property "Reference" "C5"
-			(at 266.7 53.34 90)
+			(at 264.16 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10943,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 266.7 55.88 90)
+			(at 264.16 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +10951,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 270.51 59.9948 0)
+			(at 267.97 65.0748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 60.96 0)
+			(at 264.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +10969,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 266.7 60.96 0)
+			(at 264.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 60.96 0)
+		(at 273.05 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11272,7 +11347,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4fe2688-c4e5-47c6-97ff-3121ee5e0b71")
 		(property "Reference" "#PWR013"
-			(at 279.4 67.31 0)
+			(at 273.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +11356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 66.04 0)
+			(at 273.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +11364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 60.96 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,7 +11373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 60.96 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11307,7 +11382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 60.96 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11405,8 +11480,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 40.64 90)
-		(mirror x)
+		(at 257.81 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11415,23 +11490,25 @@
 		(fields_autoplaced yes)
 		(uuid "f7932e85-cda7-4699-9d9b-09bf1e706917")
 		(property "Reference" "R2"
-			(at 261.62 34.29 90)
+			(at 260.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 261.62 36.83 90)
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "BGK_Kicad:R_Combined_Axial_DIN0207_0603_1608Metric"
-			(at 261.62 38.862 90)
+			(at 259.588 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 40.64 0)
+			(at 257.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11526,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 40.64 0)
+			(at 257.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +11551,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 279.4 39.37 0)
+		(at 279.4 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11483,7 +11560,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc4f4755-536c-453b-a8bc-b01ee22da255")
 		(property "Reference" "#PWR014"
-			(at 279.4 43.18 0)
+			(at 279.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 279.4 34.29 0)
+			(at 279.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,7 +11577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 39.37 0)
+			(at 279.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 39.37 0)
+			(at 279.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 279.4 39.37 0)
+			(at 279.4 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,6 +11610,72 @@
 			(project "KPQ-E99ZC-12"
 				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff62bbb6-9392-4719-8b8b-4b49a84061dd")
+		(property "Reference" "#PWR04"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def65f63-1760-4f85-9af1-6314292e9493")
+		)
+		(instances
+			(project "KPQ-E99ZC-12"
+				(path "/2ca696f5-3b9d-4437-b6f7-98ba53a6592e"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
