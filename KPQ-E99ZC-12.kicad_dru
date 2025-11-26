@@ -1,0 +1,6 @@
+(version 1)
+(rule  "Ignore RGB LED Pad Widths"
+    (severity ignore)
+    (condition "A.memberOfFootprint('LED_THT:LED_D5.0mm-4_RGB')")
+    (constraint annular_width)
+)
